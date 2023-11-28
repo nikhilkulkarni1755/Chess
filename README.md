@@ -1,2 +1,2 @@
 # Chess
-Open Source Chess Frontend
+Open Source Chess Frontend created with Angular

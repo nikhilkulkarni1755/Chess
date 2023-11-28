@@ -1,0 +1,10 @@
+<h1>Chess</h1>
+<div id="piece">{{piece}}</div>
+
+<div class="grid">
+
+    <div *ngFor="let square of board" class="squares" (click)="onItemClick(square)" [style.backgroundColor]="square.color">
+        <!-- {{square.piece}} -->
+    </div>
+
+</div>

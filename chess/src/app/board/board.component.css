@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:hover {
+    background-color: purple;
+}
+
+@media (max-width: 768px) {
+    .grid {
+      /* grid-template-columns: 1fr 1fr; */
+        height: 512px;
+        width: 512px;
+    }
+}
+  
+/* Example of responsive grid with three columns on larger screens */
+@media (min-width: 769px) {
+    .grid {
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        height: 768px;
+        width: 768px;
+    }
+}
+
+.grid {
+    justify-items: center;
+    text-align: center;
+    /* aspect-ratio: 1/1; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* gap: 10px; */
+    column-gap: 0px;
+    row-gap: 0px;
+    border: 1px solid black;
+}
+/* 
+.grid:hover {
+    background-color: purple;
+} */
+
+.squares {
+    /* width: 100px; */
+    /* height: 1fr; */
+    padding: 0px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+}
