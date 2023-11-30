@@ -23,4 +23,4 @@ Chess Piece Images found [here](https://commons.wikimedia.org/wiki/Category:PNG_
 
 Current Progress 
 
-![ChessBoard Progress Nov 30](ChessBoardProgressNov30.png)
+![ChessBoard Progress Nov 30](./progress/ChessBoardProgressNov30.png)
