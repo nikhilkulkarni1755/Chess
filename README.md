@@ -20,3 +20,7 @@ Steps to use this frontend
 Please submit your changes via a pull req to the center-board branch
 
 Chess Piece Images found [here](https://commons.wikimedia.org/wiki/Category:PNG_chess_pieces/Standard_transparent)
+
+Current Progress 
+
+![ChessBoard Progress Nov 30](ChessBoardProgressNov30.png)
