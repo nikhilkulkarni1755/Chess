@@ -56,3 +56,8 @@
     text-align: center;
     aspect-ratio: 1 / 1;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+}
