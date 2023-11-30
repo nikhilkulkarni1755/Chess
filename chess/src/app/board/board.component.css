@@ -25,6 +25,12 @@
     }
 }
 
+.pieceImg > img {
+    object-fit: cover;
+    width: 75%;
+    max-height: 75%;
+}
+
 .grid {
     justify-items: center;
     text-align: center;
