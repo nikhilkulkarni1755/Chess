@@ -24,3 +24,7 @@ Chess Piece Images found [here](https://commons.wikimedia.org/wiki/Category:PNG_
 Current Progress 
 
 ![ChessBoard Progress Nov 30](./progress/ChessBoardProgressNov30.png)
+
+
+add game logic here within components or service
+game save/send on server
