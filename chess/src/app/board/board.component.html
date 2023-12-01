@@ -6,19 +6,10 @@
     <div *ngFor="let square of board" class="squares" (click)="onItemClick(square)" [style.backgroundColor]="square.color">
         <!-- {{square.piece}} -->
         <div class="pieceImg">
-            <img src='{{ "../../../../assets/Pieces/" + square.piece + ".png"}}' >
+            <img src='{{ "assets/Pieces/" + square.piece + ".png"}}' >
             <!-- <img src="../../assets/Pieces/WhiteQueen.png" > -->
             <!-- {{ if(square.piece == '' {piece=''})}} -->
         </div>
-        <!-- 
-            BlackPawn
-            WhitePawn
-            BlackKing
-            WhiteKing
-
-            BlackQueen
-            WhiteQueen
-         -->
     </div>
 
 </div>
