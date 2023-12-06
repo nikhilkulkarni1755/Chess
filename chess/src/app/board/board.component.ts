@@ -101,5 +101,10 @@ export class BoardComponent {
   onItemClick(item: any) {
     console.log('item clicked: ' + item.name)
     this.piece = 'item clicked: ' + item.name
+    this.showPiecePossibilities()
+  }
+
+  showPiecePossibilities() {
+    console.log('This is where we show where the piece will go')
   }
 }
