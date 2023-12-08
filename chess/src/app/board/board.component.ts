@@ -100,7 +100,7 @@ export class BoardComponent {
 
   onItemClick(item: any) {
     console.log('item clicked: ' + item.name)
-    this.piece = 'item clicked: ' + item.name
+    this.piece = item.name
     this.showPiecePossibilities()
   }
 
