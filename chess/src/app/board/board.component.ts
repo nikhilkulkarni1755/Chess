@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class BoardComponent {
   piece: string = ''
+  possibilities:string = ''
 
   // K King 
   // Q Queen
@@ -14,7 +15,9 @@ export class BoardComponent {
   // H Knight/Horse
   // R Rook
   // P Pawn
-
+  pieces = [
+    // new Bishop()
+  ]
 
   board = [
     {id: 1, name: 'A8', color: 'White', isOccupied: true, piece: 'WhiteRook'},
@@ -98,13 +101,78 @@ export class BoardComponent {
     })
   }
 
+  // we need getters and setters for the board
+
+  setPiece() {
+    console.log('inside setPiece')
+    let temp = this.board.find(x => x.name == 'D1')
+    // this.board.piece = 'BlackQueen'
+    // location.reload() // does this actually work
+  }
+
+  getPiece() {
+    return this.board.find(x => x.name == 'D1');
+  }
+
   onItemClick(item: any) {
     console.log('item clicked: ' + item.name)
     this.piece = item.name
-    this.showPiecePossibilities()
+    // this.showPiecePossibilities(item.piece)
+
+    this.movePiece(item.piece, item)
+    // this.setPiece()
   }
 
-  showPiecePossibilities() {
-    console.log('This is where we show where the piece will go')
+  movePiece(piece:string, item:any) {
+    //item has board element
+    //parse item name 'D3' to D5
+    console.log(item.name[0])
+    console.log(item.name[1])
+    this.possibilities = ''
+
+    //we can detect what piece is on the board. 
+    if(piece == 'WhitePawn') {
+      console.log('White Pawn')
+      this.possibilities = item.name[0] + (Number(item.name[1]) - 1) + " or " + item.name[0] + (Number(item.name[1]) - 2) 
+    }
+    if(piece == 'BlackPawn') {
+      console.log('Black Pawn') 
+      this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
+    }
+    if(piece == 'BlackQueen') {
+      console.log('Black Queen')
+    }
+    if(piece == 'WhiteQueen') {
+      console.log('White Queen')
+    }
+    if(piece == 'BlackKing') {
+      console.log('Black King')
+    }
+    if(piece == 'WhiteKing') {
+      console.log('White King')
+    }
+    if(piece == 'BlackBishop') {
+      console.log('Black Bishop')
+    }
+    if(piece == 'WhiteBishop') {
+      console.log('White Bishop')
+    }
   }
+
+  // showPiecePossibilities(piece:any) {
+  //   if(piece == 'WhitePawn') {
+  //     console.log('clicked on a white pawn!')
+
+  //     // opposite of black, F7 to F5
+  //   }
+  //   if(piece == 'BlackPawn') {
+  //     console.log('clicked on a black pawn!')
+  //     // can move 1 of 2 steps ahead, which means
+
+  //     // F2 to F4
+
+
+  //   }
+  //   // console.log('This is where we show where the piece will go')
+  // }
 }

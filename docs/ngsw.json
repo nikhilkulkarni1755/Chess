@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1703994845585,
+  "index": "/Chess/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Chess/favicon.ico",
+        "/Chess/index.html",
+        "/Chess/main.c02b03c13108625c.js",
+        "/Chess/manifest.webmanifest",
+        "/Chess/polyfills.8bc65bb4f67635e7.js",
+        "/Chess/runtime.de44ee6385a14d30.js",
+        "/Chess/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Chess/assets/Pieces/BlackBishop.png",
+        "/Chess/assets/Pieces/BlackKing.png",
+        "/Chess/assets/Pieces/BlackKnight.png",
+        "/Chess/assets/Pieces/BlackPawn.png",
+        "/Chess/assets/Pieces/BlackQueen.png",
+        "/Chess/assets/Pieces/BlackRook.png",
+        "/Chess/assets/Pieces/GreyTile.png",
+        "/Chess/assets/Pieces/GreyTileBeforeResize.png",
+        "/Chess/assets/Pieces/WhiteBishop.png",
+        "/Chess/assets/Pieces/WhiteKing.png",
+        "/Chess/assets/Pieces/WhiteKnight.png",
+        "/Chess/assets/Pieces/WhitePawn.png",
+        "/Chess/assets/Pieces/WhiteQueen.png",
+        "/Chess/assets/Pieces/WhiteRook.png",
+        "/Chess/assets/Pieces/WhiteTile.png",
+        "/Chess/assets/Pieces/WhiteTileBeforeResize.png",
+        "/Chess/assets/icons/icon-128x128.png",
+        "/Chess/assets/icons/icon-144x144.png",
+        "/Chess/assets/icons/icon-152x152.png",
+        "/Chess/assets/icons/icon-192x192.png",
+        "/Chess/assets/icons/icon-384x384.png",
+        "/Chess/assets/icons/icon-512x512.png",
+        "/Chess/assets/icons/icon-72x72.png",
+        "/Chess/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Chess/assets/Pieces/BlackBishop.png": "1b08c3559e8311ba97c28bc186d1b8d4517b73c2",
+    "/Chess/assets/Pieces/BlackKing.png": "e80241437f3eae671afa5f1816d0a442af661bef",
+    "/Chess/assets/Pieces/BlackKnight.png": "8417683540708110e81deb60afaaa4e148e3126c",
+    "/Chess/assets/Pieces/BlackPawn.png": "2b9d8c761df284d460282e3b0da0733b24c34827",
+    "/Chess/assets/Pieces/BlackQueen.png": "731583c5442948c64ae8e6797f52d58904373138",
+    "/Chess/assets/Pieces/BlackRook.png": "b00bb2d1a1071c459ea69e817dc25e164352c63a",
+    "/Chess/assets/Pieces/GreyTile.png": "3f39d2f51c424d7f212ade821d9204e2f7b92801",
+    "/Chess/assets/Pieces/GreyTileBeforeResize.png": "0db79720673533f0ebbd86d4d79979db4fbc7e66",
+    "/Chess/assets/Pieces/WhiteBishop.png": "06ab51f0c451073dbc3d43089fb481e3695c847e",
+    "/Chess/assets/Pieces/WhiteKing.png": "cc7b4fef6b93a7d1c7b76cf559c0b4fa867d95f6",
+    "/Chess/assets/Pieces/WhiteKnight.png": "7d86d2c72a2e26157e1ece74e77bc74f23509652",
+    "/Chess/assets/Pieces/WhitePawn.png": "6f3b60686a5f6b7b859276aa76e555cc3911e9d9",
+    "/Chess/assets/Pieces/WhiteQueen.png": "3c74d42528c2dfb5b9f9b32e5816fe9b5d37e48b",
+    "/Chess/assets/Pieces/WhiteRook.png": "16d99d4e2f0c4286f15d963ffe57b69ac7919ebd",
+    "/Chess/assets/Pieces/WhiteTile.png": "e58a95d7de62c62bf579bf56bdff7d2bc62385fb",
+    "/Chess/assets/Pieces/WhiteTileBeforeResize.png": "11725e7b60c1db2eeeef94aa20ca59a47cb44009",
+    "/Chess/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/Chess/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/Chess/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/Chess/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/Chess/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/Chess/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/Chess/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/Chess/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/Chess/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/Chess/index.html": "12a6ead5eb702978eaf241c89a44f0b3f9829983",
+    "/Chess/main.c02b03c13108625c.js": "4fdb88737b8e48c4c7299066d182ec0efafab456",
+    "/Chess/manifest.webmanifest": "1667184b43445d334af7aa00d95237ce76a42cc7",
+    "/Chess/polyfills.8bc65bb4f67635e7.js": "a8124506dd6faa466492d95d74e24b5cda0ffd00",
+    "/Chess/runtime.de44ee6385a14d30.js": "328fa60ef9093b06a611412915d15de521d26d3f",
+    "/Chess/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
