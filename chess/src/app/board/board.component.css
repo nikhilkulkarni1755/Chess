@@ -8,6 +8,10 @@
     background-color: purple;
 }
 
+#possibilities {
+    background-color: lightgreen;
+}
+
 @media (max-width: 768px) {
     .grid {
       /* grid-template-columns: 1fr 1fr; */
@@ -20,8 +24,8 @@
 @media (min-width: 769px) {
     .grid {
         /* grid-template-columns: 1fr 1fr 1fr; */
-        height: 625px;
-        width: 625px;
+        height: 600px;
+        width: 600px;
     }
 }
 

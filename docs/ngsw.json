@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1703994845585,
+  "timestamp": 1703995138633,
   "index": "/Chess/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Chess/favicon.ico",
         "/Chess/index.html",
-        "/Chess/main.c02b03c13108625c.js",
+        "/Chess/main.ad877d119e53772f.js",
         "/Chess/manifest.webmanifest",
         "/Chess/polyfills.8bc65bb4f67635e7.js",
         "/Chess/runtime.de44ee6385a14d30.js",
@@ -84,8 +84,8 @@
     "/Chess/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/Chess/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/Chess/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Chess/index.html": "12a6ead5eb702978eaf241c89a44f0b3f9829983",
-    "/Chess/main.c02b03c13108625c.js": "4fdb88737b8e48c4c7299066d182ec0efafab456",
+    "/Chess/index.html": "f580039f69b7595f8f42650339cbb92596b5f55b",
+    "/Chess/main.ad877d119e53772f.js": "c1a40136a52352878276c75b7866a04325f918da",
     "/Chess/manifest.webmanifest": "1667184b43445d334af7aa00d95237ce76a42cc7",
     "/Chess/polyfills.8bc65bb4f67635e7.js": "a8124506dd6faa466492d95d74e24b5cda0ffd00",
     "/Chess/runtime.de44ee6385a14d30.js": "328fa60ef9093b06a611412915d15de521d26d3f",
