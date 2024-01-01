@@ -132,7 +132,10 @@ export class BoardComponent {
 
     //we can detect what piece is on the board. 
     if(piece == 'WhitePawn') {
-      console.log('White Pawn')
+      // console.log('White Pawn')
+      // if (there is a piece in front of it, then eh) {
+
+      // }
       this.possibilities = item.name[0] + (Number(item.name[1]) - 1) + " or " + item.name[0] + (Number(item.name[1]) - 2) 
     }
     if(piece == 'BlackPawn') {
@@ -141,9 +144,12 @@ export class BoardComponent {
     }
     if(piece == 'BlackQueen') {
       console.log('Black Queen')
+      // check if the road is blocked
+      this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
     }
     if(piece == 'WhiteQueen') {
       console.log('White Queen')
+      this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
     }
     if(piece == 'BlackKing') {
       console.log('Black King')

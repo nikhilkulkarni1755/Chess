@@ -8,6 +8,10 @@
     background-color: purple;
 }
 
+h1 {
+    font-size: 24px;
+}
+
 #possibilities {
     background-color: lightgreen;
 }
@@ -39,6 +43,10 @@
     justify-items: center;
     text-align: center;
     /* aspect-ratio: 1/1; */
+    /* padding-bottom: 25%;
+    height: 0;  */
+
+    /* if device is safari, do this and find some condition which looks the same */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /* gap: 10px; */
