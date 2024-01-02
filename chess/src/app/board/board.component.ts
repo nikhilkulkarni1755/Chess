@@ -114,6 +114,10 @@ export class BoardComponent {
     return this.board.find(x => x.name == 'D1');
   }
 
+  getPieceById(id:number) {
+    return this.board.find(x => x.id == id)
+  }
+
   onItemClick(item: any) {
     console.log('item clicked: ' + item.name)
     this.piece = item.name
@@ -121,6 +125,16 @@ export class BoardComponent {
 
     this.movePiece(item.piece, item)
     // this.setPiece()
+  }
+
+  findAdjacentPlaces(item:any) {
+    console.log('inside findAdjacentPlaces fxn')
+    console.log(item.id)
+    while(item.id + 8 <= 64) {
+      item = this.getPieceById(item.id+8)
+      console.log(item.name)
+    }
+    
   }
 
   movePiece(piece:string, item:any) {
@@ -145,11 +159,13 @@ export class BoardComponent {
     if(piece == 'BlackQueen') {
       console.log('Black Queen')
       // check if the road is blocked
-      this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
+      this.findAdjacentPlaces(item)
+      // this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
     }
     if(piece == 'WhiteQueen') {
       console.log('White Queen')
-      this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
+      this.findAdjacentPlaces(item)
+      // this.possibilities = item.name[0] + (Number(item.name[1]) + 1) + " or " + item.name[0] + (Number(item.name[1]) + 2) 
     }
     if(piece == 'BlackKing') {
       console.log('Black King')
